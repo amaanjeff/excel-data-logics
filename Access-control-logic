@@ -1,27 +1,15 @@
-# 🔐 Access Control Logic Using Excel
+# 🔐 Access Control Logic Using Excel (Using IF, AND, OR)
 
-## 📘 Overview
-
-This Excel-based project simulates a simple **Access Control System** using conditional logic. It determines whether a user is granted or denied access based on their **role**, **password**, and **entry pass status**.
-
-It's a practical demonstration of Excel functions like `IF`, `AND`, and `OR`, commonly used in business rule automation and real-world decision logic.
-
----
+This mini project simulates a role-based access system using **Excel logical formulas** — mainly `IF`, `AND`, and `OR`.
 
 ## 🧠 Access Rules
 
-Access is granted based on the following logic:
+- **Admin** → Access only if Password = 1234  
+- **VIP** → Access if Password = 1234 OR EntryPass = Valid  
+- **Senior Admin** → Always gets access  
+- **Others** → Denied
 
-| Role           | Access Criteria                                       |
-|----------------|-------------------------------------------------------|
-| **Admin**      | Access only if `Password = 1234`                      |
-| **VIP**        | Access if `Password = 1234` **OR** `EntryPass = Valid`|
-| **Senior Admin** | Always gets access regardless of conditions         |
-| **Guest/Others** | Access Denied                                       |
-
----
-
-## 🔧 Excel Formulas Used
+## 🔧 Excel Formula Used
 
 ```excel
 =IF(OR(
