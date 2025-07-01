@@ -1,2 +1,4 @@
-# Excel Data Logics
-A simple Excel project using IF, AND, OR formulas to control access.
+# Excel Data Logics – Mini Projects
+
+This repository contains practice Excel projects demonstrating logical formulas like `IF`, `AND`, and `OR`. Useful for beginners and aspiring data analysts.
+
